@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f0f0f;
+    height: 100%;
+  }
+  
+  .dashboard {
+    height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+  }
+  
+  /* Sizing overrides */
+  .flex-1 {
+    flex: 1;
+  }
+  
+  .flex-2 {
+    flex: 2;
+  }
+  
+  /* Panel box styling */
+  .panel {
+    flex: 1;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Glass look */
+  .glass {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
