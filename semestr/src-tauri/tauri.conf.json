@@ -13,9 +13,9 @@
     "windows": [
       {
         "title": "Semestr",
-        "width": 1280,
-        "height": 720,
-        "resizable": false,
+        "width": 1664,
+        "height": 936,
+        "resizable": true,
         "fullscreen": false,
         "decorations": true
       }
